@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/xxcheng123/protobuf/proto"
 	"google.golang.org/protobuf/testing/protopack"
 
-	pb2 "github.com/golang/protobuf/internal/testprotos/proto2_proto"
-	pb3 "github.com/golang/protobuf/internal/testprotos/proto3_proto"
-	tspb "github.com/golang/protobuf/ptypes/timestamp"
+	pb2 "github.com/xxcheng123/protobuf/internal/testprotos/proto2_proto"
+	pb3 "github.com/xxcheng123/protobuf/internal/testprotos/proto3_proto"
+	tspb "github.com/xxcheng123/protobuf/ptypes/timestamp"
 )
 
 func initGoTestField() *pb2.GoTestField {
